@@ -6,7 +6,7 @@ let package = Package(
     name: "GoogleAPIClientForREST",
     platforms: [
         .macOS(.v10_10),
-        .iOS(.v8),
+        .iOS(.v9),
         .tvOS(.v9),
         .watchOS(.v2)
     ],
@@ -760,7 +760,7 @@ let package = Package(
         // End of products.
     ],
     dependencies: [
-        .package(url: "https://github.com/google/gtm-session-fetcher.git", from: "1.4.0")
+        .package(url: "https://github.com/jwells89/gtm-session-fetcher.git", from: "1.4.0")
     ],
     targets: [
         .target(
